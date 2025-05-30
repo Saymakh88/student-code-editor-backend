@@ -42,6 +42,13 @@ INSTALLED_APPS = [
     'corsheaders',
 ]
 
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'student-code-editor-backend-3.onrender.com'
+]
+
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
