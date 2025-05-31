@@ -18,7 +18,7 @@ def run_code(request):
 
             # Run the code with input using subprocess
             process = subprocess.run(
-                ["python", tmp_file.name],
+                ["python3", tmp_file.name],
                 input=user_input,
                 capture_output=True,
                 text=True,
