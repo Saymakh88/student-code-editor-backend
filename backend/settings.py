@@ -45,8 +45,10 @@ INSTALLED_APPS = [
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
-    'student-code-editor-backend-3.onrender.com'
+    'student-code-editor-backend-3.onrender.com',
+    'student-code-editor-backend-5.onrender.com'  # ✅ Add this
 ]
+
 
 
 MIDDLEWARE = [
